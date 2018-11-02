@@ -9,7 +9,7 @@
     "deploy": "zip -r vscodeFunc.zip * && aws lambda update-function-code --function-name \"vscode-issue-tracker\" --zip-file fileb://vscodeFunc.zip"
   },
   "keywords": [],
-  "author": "Aditya Bist",
+  "author": "Benjamin Lannon",
   "license": "MIT",
   "dependencies": {
     "dotenv-extended": "^2.2.0",
