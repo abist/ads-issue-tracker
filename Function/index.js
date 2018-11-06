@@ -1,9 +1,10 @@
 const fetch = require("node-fetch");
 const moment = require("moment");
+require('dotenv').config();
 
 var admin = require("firebase-admin");
 
-var serviceAccount = require("./accountKey.json");
+var serviceAccount = require("../accountKey.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
@@ -33,7 +34,7 @@ function getIssues(body) {
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json",
-      Authorization: `bearer ${process.env.GITHUB_TOKEN}`
+      Authorization: `Basic ${process.env.GITHUB_TOKEN}`
     }
   };
   
