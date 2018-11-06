@@ -1,12 +1,10 @@
-# VS Code Issue Tracker
+# Azure Data Studio Issue Tracker
 
 ![Issue Tracker Screenshot](images/issueTrackerPreview.png)
 
-The VS Code Issue Tracker is a visualization of the issue count on the [Microsoft/vscode](https://github.com/microsoft/vscode) repository over time.
+The Azure Data Studio Issue Tracker is a visualization of the issue count on the [Microsoft/azuredatastudio](https://github.com/microsoft/azuredatastudio) repository over time.
 
-The initial inspiration for this was to track the progress of [microsoft/vscode#58336](https://github.com/Microsoft/vscode/issues/58336).
-
-You can visit the site live here: [vscode-issue-tracker.netlify.com](https://vscode-issue-tracker.netlify.com/)
+You can visit the VS Code site live here: [vscode-issue-tracker.netlify.com](https://vscode-issue-tracker.netlify.com/)
 
 # Webstack Description
 
