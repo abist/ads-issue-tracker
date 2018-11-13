@@ -205,10 +205,10 @@ function fillDiffs(nowEntry, dayAgoEntry) {
   const totalDiffElement = document.getElementById("totalDiff");
 
   totalDiffElement.innerHTML = `
-    On Sept 10, 2018 at 8:41PM EST, there were 49,181 closed issues. Now there
+    On Nov 13, 2018 at 1:00PM PST, there were 1,205 closed issues. Now there
     are ${nowEntry.closedIssues.toLocaleString()} closed issues, for a total difference of
     <b>${(
-      nowEntry.closedIssues - 49181
+      nowEntry.closedIssues - 1205
     ).toLocaleString()} issues</b> that have been closed since I started tracking this.
   `;
 }
