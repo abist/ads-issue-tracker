@@ -19,7 +19,7 @@ db.collection("entries").orderBy("timestamp", "desc").limit(720).get().then(quer
 
   let str = "window.vsIssueTrackerDataPoints = " + JSON.stringify(data);
 
-  fs.writeFile("./data.js", str, (error) => {
+  fs.writeFile("./../ads-issue-tracker/data.js", str, (error) => {
       if (error) {
         console.error(error);
         return;
