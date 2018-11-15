@@ -1,7 +1,7 @@
 {
   "name": "ads-issue-tracker",
   "version": "1.0.0",
-  "description": "A simple website to present how many issues are open over time for [microsoft/azuredatastudio](https://github.com/Microsoft/azuredatastudio). I Wanted to visualize the progress on [microsoft/vscode#58336](https://github.com/Microsoft/vscode/issues/58336) so I used the Github API to graph open issues over time for VS Code",
+  "description": "A simple website to present how many issues are open over time for [microsoft/azuredatastudio](https://github.com/Microsoft/azuredatastudio).",
   "main": "main.js",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
   "author": "Aditya Bist",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lannonbr/vscode-issue-tracker/issues"
+    "url": "https://github.com/abist/ads-issue-tracker/issues"
   },
   "homepage": "https://github.com/abist/ads-issue-tracker#readme",
   "dependencies": {
