@@ -1,6 +1,5 @@
 var admin = require("firebase-admin");
 var fs = require("fs");
-var schedule = require('node-schedule');
 
 var serviceAccount = require("./accountKey.json");
 
