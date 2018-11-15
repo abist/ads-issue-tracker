@@ -4,7 +4,7 @@
 
 The Azure Data Studio Issue Tracker is a visualization of the issue count on the [Microsoft/azuredatastudio](https://github.com/microsoft/azuredatastudio) repository over time.
 
-You can visit the VS Code site live here: [ads-issue-tracker.netlify.com](https://vscode-issue-tracker.netlify.com/)
+You can visit the Azure Data Studio site live here: [ads-issue-tracker.netlify.com](https://ads-issue-tracker.netlify.com/)
 
 Forked from [vscode-issue-tracker](https://github.com/lannonbr/vscode-issue-tracker)
 
